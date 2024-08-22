@@ -59,6 +59,11 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
+        [
+            
+            InlineKeyboardButton(text="💌★ʏᴏᴜᴛᴜʙᴇ★💌", url="https://www.youtube.com/@allexamgkgspractice"),
+            InlineKeyboardButton(text="❤️★ᴏᴡɴᴇʀ★❤️", url="https://t.me/Genius_431"),
+        ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
