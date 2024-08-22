@@ -75,12 +75,8 @@ def stream_markup_timer(_, chat_id, played, dur):
 
 def stream_markup(_, chat_id):
     buttons = [
-        [
-         InlineKeyboardButton(text="🥀★ʏᴏᴜᴛᴜʙᴇ★🥀", url="https://www.youtube.com/@allexamgkgspractice"),
-         InlineKeyboardButton(text="💌★ᴄʜᴀɴɴᴇʟ★💌", url="https://t.me/quizbys"),
-        ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
-    ]
+    ],
     return buttons
 
 
